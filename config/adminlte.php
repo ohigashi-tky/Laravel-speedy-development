@@ -311,7 +311,7 @@ return [
         [
             'text' => '日記',
             'url' => '/diary',
-            'icon' => 'fas fa-shopping-bag',
+            'icon' => 'fas fa-book',
         ],
     ],
 
