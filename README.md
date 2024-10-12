@@ -5,8 +5,8 @@ Laravel-speedy-development
 https://laravel-diary-app.onrender.com
 
 ## 概要
-基本的なCRUD操作ができるテンプレートのようなアプリケーションです。
-最小限の時間で開発できるような技術スタックにしています。
+日記アプリです。
+基本的なCRUD、画像アップロード可能です。
 
 ## 主な技術スタック
 - **バックエンド & フロントエンド**：Laravel 11
@@ -76,3 +76,6 @@ http://localhost
 
 削除完了  
 ![alt text](image-6.png)
+
+ページネーション  
+![alt text](image-7.png)
