@@ -56,23 +56,23 @@ Sailを使ってDockerコンテナ起動
 http://localhost
 
 # 画面イメージ
-一覧
+一覧  
 ![alt text](image.png)
 
-登録
+登録  
 ![alt text](image-1.png)
 
-登録完了
+登録完了  
 ![alt text](image-2.png)
 
-編集
+編集  
 ![alt text](image-3.png)
 
-編集完了
+編集完了  
 ![alt text](image-4.png)
 
-削除
+削除  
 ![alt text](image-5.png)
 
-削除完了
+削除完了  
 ![alt text](image-6.png)
