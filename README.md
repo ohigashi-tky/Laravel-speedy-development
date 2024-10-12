@@ -54,3 +54,6 @@ Sailを使ってDockerコンテナ起動
 
 下記にアクセスしてログイン画面が表示されればOK
 http://localhost
+
+# 画面イメージ
+![alt text](image.png)
