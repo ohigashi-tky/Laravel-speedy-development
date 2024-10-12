@@ -26,7 +26,7 @@
             <input type="file" name="image" id="image" class="form-control-file">
         </div>
 
-        <button type="submit" class="btn btn-primary">更新</button>
-        <a href="{{ route('diary.index') }}" class="btn btn-secondary">キャンセル</a>
+        <button type="submit" class="btn btn-success">編集</button>
+        <a href="{{ route('diary.index') }}" class="btn btn-secondary">戻る</a>
     </form>
 @stop
