@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => '管理画面',
+    'title' => '1行日記',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,12 +63,12 @@ return [
     |
     */
 
-    'logo' => '管理画面',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '1行日記',
+    'logo_img' => 'img/1.png',
+    'logo_img_class' => 'brand-image',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Admin Logo',
+    'logo_img_alt' => '1行日記',
 
     /*
     |--------------------------------------------------------------------------
@@ -257,7 +257,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'diary',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -302,15 +302,15 @@ return [
         // Navbar items:
 
         // Side menu items
+        // [
+        //     'text' => 'HOME',
+        //     'url' => '/dashboard',
+        //     'icon' => 'fas fa-home',
+        //     'label_color' => 'success',
+        // ],
         [
-            'text' => 'HOME',
-            'url' => '/dashboard',
-            'icon' => 'fas fa-home',
-            'label_color' => 'success',
-        ],
-        [
-            'text' => '商品管理',
-            'url' => '/items',
+            'text' => '日記',
+            'url' => '/diary',
             'icon' => 'fas fa-shopping-bag',
         ],
     ],
