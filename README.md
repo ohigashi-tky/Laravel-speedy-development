@@ -47,4 +47,5 @@ Sailを使ってDockerコンテナ起動
 ./vendor/bin/sail artisan migrate --seed
 ```
 
-http://localhostにアクセスしてログイン画面が表示されればOK
+下記にアクセスしてログイン画面が表示されればOK
+http://localhost
