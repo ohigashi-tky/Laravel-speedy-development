@@ -1,6 +1,9 @@
 # プロジェクト名
 Laravel-speedy-development
 
+# デモ環境　（準備中）
+https://laravel-diary-app.onrender.com
+
 ## 概要
 基本的なCRUD操作ができるテンプレートのようなアプリケーションです。
 最小限の時間で開発できるような技術スタックにしています。
@@ -8,8 +11,10 @@ Laravel-speedy-development
 ## 主な技術スタック
 - **バックエンド & フロントエンド**：Laravel 11
 - **UIテンプレート**：AdminLTE
+- **DB**：ローカル環境はMySQL デモ環境はPostgreSQL
 - **認証機能**：Laravel Breeze
 - **開発環境**：Laravel Sail (Docker)
+- **デモ環境**：Render
 
 ## セットアップ手順
 **注意点**: このプロジェクトは`pnpm`を使用しています。
