@@ -1,5 +1,6 @@
 # プロジェクト名
 Laravel-speedy-development
+（課題用に作ったリポジトリなので名称は気にしないでください）
 
 # デモ環境　（準備中）
 https://laravel-diary-app.onrender.com
@@ -40,11 +41,10 @@ Sailを使ってDockerコンテナ起動
 ./vendor/bin/sail up -d
 ```
 
-依存関係のインストール、ビルド、起動
+依存関係のインストール
 ```bash
 ./vendor/bin/sail composer install
 ./vendor/bin/sail pnpm install
-./vendor/bin/sail pnpm run dev
 ```
 
 マイグレーション、シーディング
