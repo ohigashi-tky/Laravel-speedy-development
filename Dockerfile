@@ -32,4 +32,4 @@ RUN composer install --no-dev --optimize-autoloader
 EXPOSE 8000
 
 # アプリケーションのサーバーを起動
-CMD php artisan serve --host=0.0.0.0 --port=80
+CMD php artisan serve --host=0.0.0.0 --port=8000
