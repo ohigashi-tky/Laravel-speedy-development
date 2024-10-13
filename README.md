@@ -1,21 +1,16 @@
 # プロジェクト名
 Laravel-speedy-development
-（課題用に作ったリポジトリなので名称は気にしないでください）
-
-# デモ環境　（準備中）
-https://laravel-diary-app.onrender.com
 
 ## 概要
 日記アプリです。
 基本的なCRUD、画像アップロード可能です。
 
 ## 主な技術スタック
-- **バックエンド & フロントエンド**：Laravel 11
+- **バックエンド & フロントエンド**：PHP8.3 Laravel11
 - **UIテンプレート**：AdminLTE
-- **DB**：ローカル環境はMySQL デモ環境はPostgreSQL
+- **DB**：MySQL8.0
 - **認証機能**：Laravel Breeze
 - **開発環境**：Laravel Sail (Docker)
-- **デモ環境**：Render
 
 ## セットアップ手順
 **注意点**: このプロジェクトは`pnpm`を使用しています。
