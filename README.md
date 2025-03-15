@@ -52,25 +52,25 @@ http://localhost
 
 # 画面イメージ
 一覧  
-![alt text](image.png)
+![alt text](./public/img/image.png)
 
 登録  
-![alt text](image-1.png)
+![alt text](./public/img/image-1.png)
 
 登録完了  
-![alt text](image-2.png)
+![alt text](./public/img/image-2.png)
 
 編集  
-![alt text](image-3.png)
+![alt text](./public/img/image-3.png)
 
 編集完了  
-![alt text](image-4.png)
+![alt text](./public/img/image-4.png)
 
 削除  
-![alt text](image-5.png)
+![alt text](./public/img/image-5.png)
 
 削除完了  
-![alt text](image-6.png)
+![alt text](./public/img/image-6.png)
 
 ページネーション  
-![alt text](image-7.png)
+![alt text](./public/img/image-7.png)
