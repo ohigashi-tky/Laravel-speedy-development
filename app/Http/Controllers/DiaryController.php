@@ -7,9 +7,6 @@ use Illuminate\Http\Request;
 
 class DiaryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $diaries = Diary::orderBy('created_at', 'desc')->paginate(5);
@@ -23,7 +20,6 @@ class DiaryController extends Controller
     
     public function store(Request $request)
     {
-        // 入力チェック(クラス分割は省略)
         $request->validate([
             'content' => 'required|string',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -41,26 +37,17 @@ class DiaryController extends Controller
     }
     
 
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
     public function edit(string $id)
     {
         $diary = Diary::findOrFail($id);
         return view('diaries.edit', compact('diary'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
     public function update(Request $request, string $id)
     {
         $request->validate([
@@ -80,11 +67,7 @@ class DiaryController extends Controller
     
         return redirect()->route('diary.index')->with('success', '日記を編集しました');
     }
-    
 
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(string $id)
     {
         $diary = Diary::findOrFail($id);
